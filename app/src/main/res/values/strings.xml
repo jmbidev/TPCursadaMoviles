@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MyFirstApplication</string>
+    <string name="add">add</string>
+    <string name="subtract">subtract</string>
+    <string name="restart">restart</string>
+    <string name="class1">Class 1</string>
+    <string name="class2">Class 2</string>
+    <string name="class3">Class 3</string>
+    <string name="class4">Class 4</string>
+    <string name="class5">Class 5</string>
+    <string name="home">Home</string>
+    <string name="sum">Sum</string>
+    <string name="subs">Subs</string>
+    <string name="mult">Mult</string>
+    <string name="div">Div</string>
+    <string name="calculate">Calculate</string>
+    <string name="enterValues">Enter Values</string>
+</resources>
