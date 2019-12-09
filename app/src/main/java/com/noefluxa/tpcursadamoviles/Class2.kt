@@ -28,7 +28,7 @@ class Class2 : AppCompatActivity() {
 
         button_enterValues.setOnClickListener {
             val intent = Intent(this, activity_class2_numbers::class.java)
-            startActivityForResult()
+            startActivityForResult(intent, -1)
         }
     }
 }

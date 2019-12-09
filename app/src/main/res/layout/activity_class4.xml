@@ -6,13 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".Class4">
 
-    <Button
-        android:id="@+id/button_home"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/home"
-        tools:layout_editor_absoluteX="18dp"
-        tools:layout_editor_absoluteY="21dp"
-        tools:ignore="MissingConstraints" />
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"></LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
