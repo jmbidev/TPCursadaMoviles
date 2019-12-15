@@ -17,7 +17,7 @@
     <string name="play">play</string>
     <string name="stop">stop</string>
     <string name="enterValues">Enter Values</string>
-    <string name="seconds">Time in seconds</string>
+    <string name="seconds">Time in milliseconds</string>
     <string name="service">Service</string>
     <string name="intent_service">Intent Service</string>
     <string name="get_random">Get Random Number</string>

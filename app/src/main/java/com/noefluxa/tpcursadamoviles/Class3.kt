@@ -72,16 +72,12 @@ class Class3 : AppCompatActivity() {
 
         override fun onPreExecute() {
             super.onPreExecute()
-            println("hasta aca llegue pre execute")
-            stepTime = this@Class3.timeIn.text.toString().toIntOrNull() ?: 0
-            println("hasta aca llegue pre execute")
+            stepTime = this@Class3.timeIn.text.toString().toIntOrNull() ?: 100 // min step time
         }
 
         override fun onProgressUpdate(vararg values: Int?) {
             super.onProgressUpdate(*values)
-            println("hasta aca llegue progress update")
             this@Class3.textViewCounter.text = values[0].toString()
-            println("hasta aca llegue progress update")
         }
 
         override fun onPostExecute(result: Int?) {
@@ -90,7 +86,6 @@ class Class3 : AppCompatActivity() {
 
         override fun doInBackground(vararg params: Void?): Int {
             while (true){
-                println("hasta aca llegue do in background")
                 Thread.sleep(stepTime.toLong())
                 count++
                 publishProgress(count)
