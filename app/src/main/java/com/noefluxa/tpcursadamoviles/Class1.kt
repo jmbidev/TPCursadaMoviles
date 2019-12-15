@@ -14,8 +14,7 @@ class Class1 : AppCompatActivity() {
         setContentView(R.layout.activity_class1)
 
         button_home.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
-            startActivity(intent)
+            finish()
         }
 
         buttonAdd.setOnClickListener {
